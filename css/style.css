@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen-play{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+}
+    
+    
+    
+
+.side-bar{
+    background-color: black;
+    display: flex;
+    width: 50px;
+    height: 100%;
+}
+
+.bottom-nav-play{
+    background-color: #282828;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+
+.main-screen{
+    width: calc(100% - 50px);
+    height: 100%;
+    background-color: #141922;
+
+}
+
+.upgrade-bar{
+    height: 60px;
+    background-color: #1d2635;
+    width: 100%;
+}
