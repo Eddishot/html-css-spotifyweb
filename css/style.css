@@ -60,7 +60,14 @@
     font-weight: 600;
     
 }
-                /* LIST BAR */
+.upgrade-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* LIST BAR */
 
 /* .list-bar{
     display: flex;
@@ -132,7 +139,16 @@
 
 .bottom-middle{
     width: 40%;
-    display: flex;
+    
+    text-align: center;
+}
+.song-bar{
+    display: block;
+}
+.song-bar .duration-song{
+    width: 100px;
+    height: 5px;
+    background-color: yellow;
 }
 
 
