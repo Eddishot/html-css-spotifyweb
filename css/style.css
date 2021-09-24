@@ -136,9 +136,11 @@
 }
 
 .bottom-left-immage{
-    width: 30px;
-    height: 30px;
+    width: 30%;
+    
     margin-left: 10px;
+    max-width: 50px;
+    min-width: 30px;
 }
 .bottom-left-immage img{
     width: 100%;
@@ -233,17 +235,16 @@
 
 /* media-queries */
 
-@media screen and (max-width:500px){
+/* @media screen and (max-width:500px){
     .playlist-1-boxes-album{
         width: calc(100% / 2 - 10px);
     }
-}
+} */
 
 
 
-
-@media  screen and (max-width:800px) {
-    .playlist-1-boxes-album{
+@media screen and (max-width:800px){
+    .playlist-1-boxes .playlist-1-boxes-album{
         width: calc(100% / 4 - 10px);
-    }
+    }  
 }
