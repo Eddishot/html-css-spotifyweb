@@ -24,7 +24,7 @@
 
 .bottom-nav-play{
     background-color: #282828;
-    height: 60px;
+    height: 80px;
     width: 100%;
     display: flex;
 }
@@ -134,26 +134,84 @@
 .bottom-left div:nth-child(2){
     padding: 0px 20px;
 }
+.bottom-left h5{
+    color: white;
+}
+.bottom-left p{
+    color:#797575;
+}
+.bottom-left i{
+    color: #797575;
+}
 
 
 
 .bottom-middle{
     width: 40%;
-    
+    max-width: 500px;
     text-align: center;
+    flex-direction: column;
+    color: white;
 }
+
+.bottom-middle-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+.bottom-middle i{
+    padding: 0px 10px;
+}
+
+.bottom-middle .fa-play-circle{
+    font-size: 26px;
+}
+
+
 .song-bar{
-    display: block;
+    padding: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.song-bar .duration-song{
-    width: 100px;
+
+.song-bar span{
+    font-size: 12px;
+}
+
+
+.duration-bar{
+    width: 70%;
     height: 5px;
-    background-color: yellow;
+    background-color:  #797575;
+    border-radius: 2px;
+    margin: 0px 5px;
+    
+    
+    
 }
 
 
 .bottom-right{
     width: 30%;
     display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.bottom-right i{
+    padding: 0px 10px;
+    color: white;
+}
+
+.bottom-right-volume{
+    width: 40%;
+    height: 5px;
+    background-color:  #797575;
+    border-radius: 2px;
+    /* margin: 0px 5px; */
 }
 
