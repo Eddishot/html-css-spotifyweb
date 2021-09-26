@@ -18,8 +18,9 @@
 .side-bar{
     background-color: black;
     display: flex;
-    width: 50px;
+    width: 120px;
     height: 100%;
+    flex-direction: column;
 }
 
 .bottom-nav-play{
@@ -68,7 +69,34 @@
     color: white;
 }
 
+/* side-bar */
+.side-bar-top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.side-bar-top div:nth-child(1){
+    padding: 15px 0px;
+}
+.side-bar-top img{
+    width: 60%;
 
+}
+
+.side-bar-middle{
+    display: flex;
+    flex-grow: 1;
+}
+
+.side-bar-bottom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.side-bar-bottom img{
+    width: 70%;
+}
 
 /* LIST BAR */
 
